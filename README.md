@@ -14,7 +14,11 @@ Launching an ec2 instance in aws cloud inside a vpc using terraform code
 12. Automatically gets a public IP so you can connect to it
 
 terraform init
+
 terraform plan
+
 terraform plan -out=tfplan
+
 terraform show -json tfplan > plan.json (store plan file as json file)
+
 terraform apply tfplan
