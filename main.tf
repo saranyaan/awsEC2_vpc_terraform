@@ -101,7 +101,7 @@ resource "aws_instance" "free_tier_ec2" {
   instance_type          = "t2.micro"
   subnet_id              = aws_subnet.public_subnet.id
   vpc_security_group_ids = [aws_security_group.instance_sg.id]
-  key_name               = "demo3" # Replace with your EC2 key pair name
+  key_name               = "demo4" # Replace with your EC2 key pair name
 
   tags = {
     Name = "aws-EC2"
